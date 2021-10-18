@@ -2,13 +2,13 @@ package com.qa.iteration;
 
 public class Flowcharts {
 
-	public static void flow1() {
+	public void flow1() {
 		for (int A = 100; A < 200; A++) {
 			System.out.println(A);
 		}
 	}
 
-	public static void flow2() {
+	public void flow2() {
 		for (int A = 100; A <= 200; A++) {
 			if (A % 2 == 0) {
 				System.out.println(A + " -");
@@ -19,7 +19,7 @@ public class Flowcharts {
 
 	}
 
-	public static void flow3() {
+	public void flow3() {
 		for (int i = 1; i <= 10; i++) {
 			for (int y = 1; y <= 10; y++) {
 				System.out.println(y);
@@ -27,7 +27,7 @@ public class Flowcharts {
 		}
 	}
 
-	public static void flow4() {
+	public void flow4() {
 		for (int i = 0; i <= 10; i++) {
 			for (int y = 1; y <= i; y++) {
 				System.out.println(i);
@@ -67,4 +67,6 @@ public class Flowcharts {
 			return tens[num / 10] + ones[num % 10];
 		}
 	}
+//	String.format("%s-%s",)
 }
+

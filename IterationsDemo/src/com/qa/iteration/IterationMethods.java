@@ -14,7 +14,14 @@ public class IterationMethods {
 //		System.out.println("Stop spending money");
 //	}
 
-	public static void cashmoney(int num) {
+		public int num;
+	
+	public IterationMethods(int num) {
+	super();
+	this.num = num;
+}
+
+	public void cashmoney() {
 		Random random = new Random();
 		int spent = random.nextInt(40);
 		int money = num;
@@ -24,6 +31,7 @@ public class IterationMethods {
 		}
 	
 		System.out.println("Stop spending money");
+		return;
 	}
 
 }
